@@ -4,7 +4,7 @@
 ## Contacts
 
 * [E-mail: sergeeva.an211@gmail.com](mailto:sergeeva.an211@gmail.com)
-* [Telegram](t.me/snorrky)
+* [Telegram](https://t.me/snorrky)
 * [Github](https://github.com/Snorrky/)
 * [Discord: Anastasiya (@Snorrky)](https://discordapp.com/users/488331778923298816)
 

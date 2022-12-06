@@ -1,1 +1,1 @@
-CV#1 by Anastasiya Sergeeva
+https://Snorrky.github.io/rsschool-cv/cv

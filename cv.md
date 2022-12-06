@@ -23,6 +23,17 @@ Junior front-end developer. I am currently studying the JavaScript/Front-end cou
 * E-mail layout
 * Figma, Adobe Photoshop 
 
+## Code examples
+```javascript
+function sumTwoSmallestNumbers(numbers) {  
+  function compare(a,b) {
+    return a - b;
+  }
+  numbers = numbers.sort(compare);
+  return numbers[0]+numbers[1];
+}
+```
+
 ## Experience
 
 * Frontend-developer/Database Administrator/Technical support in Real Estate Agency

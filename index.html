@@ -16,34 +16,37 @@
     <main class="page">
         <div class="wrapper">
             
-            <section id="photo">
-                <img src="profile.jpg" alt="Anastasiya Sergeeva Photo" width="200" height="200">
-            </section>
-            <section id="contacts">
-                <h1>Anastasiya Sergeeva</h1>
-                <ul>
-                    <li>
-                        <a href="mailto:sergeeva.an211@gmail.com">E-mail: sergeeva.an211@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/snorrky">Telegram</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Snorrky/">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://discordapp.com/users/488331778923298816">Discord</a>
-                    </li>
-                </ul>
+            <section id="info" class="page-section info">
+                <div class="photo">
+                    <img src="profile.jpg" alt="Anastasiya Sergeeva Photo" width="200" height="200">
+                </div>
+                <div class="contacts">
+
+                    <h1>Anastasiya Sergeeva</h1>
+                    <ul class="contact-list">
+                        <li class="contact-item">
+                            <a href="mailto:sergeeva.an211@gmail.com">E-mail: sergeeva.an211@gmail.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://t.me/snorrky">Telegram</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://github.com/Snorrky/">Github</a>
+                        </li>
+                        <li class="contact-item">
+                            <a href="https://discordapp.com/users/488331778923298816">Discord</a>
+                        </li>
+                    </ul>
+            </div>
             </section>
             
-            <section id="about">
+            <section id="about" class="page-section">
                 <h2>About me</h2>
                 <p>Junior front-end developer. I am currently studying the JavaScript/Front-end course at RS School. I have
                 working experience with many simple websites and landing pages (front-end and back-end), but I want to
                 work on more interesting and complex projects.</p>
             </section>
-            <section id="skills">
+            <section id="skills" class="page-section">
                 <h2>Skills</h2>
                 <ul>
                     <li>
@@ -71,48 +74,51 @@
                     </li>
                 </ul>
             </section>
-            <section id="code">
+            <section id="code" class="page-section">
                 <h2>Code example</h2>
                 <pre class="code-example"><code>
-function sumTwoSmallestNumbers(numbers) { 
-function compare(a,b) {
-return a - b;
-}
-numbers = numbers.sort(compare);
-return numbers[0]+numbers[1];
-}
+    function sumTwoSmallestNumbers(numbers) { 
+        function compare(a,b) {
+            return a - b;
+        }
+        numbers = numbers.sort(compare);
+        return numbers[0]+numbers[1];
+    }
+    
 </code></pre>
             </section>
-            <section id="experience">
+            <section id="experience" class="page-section">
                 <h2>Experience</h2>
-                <ul>
-                    <li>Frontend-developer/Database Administrator/Technical support in Real Estate Agency (2016 - current)
-                        <ul>
-                            <li>creating landing pages (HTML, CSS, JS, JQuery, PHP, SQL)</li>
-                            <li>creating xml-feeds (PHP, SQL)</li>
-                            <li>e-mail layout</li>
-                            <li>creating banners</li>
-                            <li>technical support</li>
-                            <li>setting tasks for developers</li>
-                            <li>CRM setup and control</li>
+                <ul class="exp-list">
+                    <li class="exp-item">Frontend-developer/Database Administrator/Technical support in Real Estate Agency (2016 - current)
+                        <ul class="shores-list">
+                            <li class="shore-item">creating landing pages (HTML, CSS, JS, JQuery, PHP, SQL)</li>
+                            <li class="shore-item">creating xml-feeds (PHP, SQL)</li>
+                            <li class="shore-item">e-mail layout</li>
+                            <li class="shore-item">creating banners</li>
+                            <li class="shore-item">technical support</li>
+                            <li class="shore-item">setting tasks for developers</li>
+                            <li class="shore-item">CRM setup and control</li>
                         </ul>
                     </li>
                 </ul>
             </section>
-            <section id="education">
-                <ul>
-                    <li>self-education by youtube</li>
-                    <li>Course Web-Developer by Ivan Petrichenko (Udemy)</li>
-                    <li>trainings on htmlacademy.com (in progress)</li>
-                    <li>RS Schools Course (in progress)</li>
-                    <li>Moscow Engineering Physics Institute (incomplete higher education)</li>
-                    <li>Univercity College Of Information Technology</li>
+            <section id="education" class="page-section">
+                <h2>Education</h2>
+                <ul class="edu-list">
+                    <li class="edu-item">self-education by youtube</li>
+                    <li class="edu-item">Course Web-Developer by Ivan Petrichenko (Udemy)</li>
+                    <li class="edu-item">trainings on htmlacademy.com (in progress)</li>
+                    <li class="edu-item">RS Schools Course (in progress)</li>
+                    <li class="edu-item">Moscow Engineering Physics Institute (incomplete higher education)</li>
+                    <li class="edu-item">Univercity College Of Information Technology</li>
                 </ul>
             </section>
-            <section id="languages">
-                <ul>
-                    <li>Russian - native</li>
-                    <li>English - B2</li>
+            <section id="languages" class="page-section">
+                <h2>Languages</h2>
+                <ul class="lang-list">
+                    <li class="lang-item">Russian - native</li>
+                    <li class="lang-item">English - B2</li>
                 </ul>
             </section>
         </div>

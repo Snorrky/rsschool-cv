@@ -1,13 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV#2. HTML, CSS & Git Basics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <main class="page">
+        <div class="wrapper">
+            
+            <section id="photo">
+                <img src="profile.jpg" alt="Anastasiya Sergeeva Photo" width="200" height="200">
+            </section>
+            <section id="contacts">
+                <h1>Anastasiya Sergeeva</h1>
+                <ul>
+                    <li>
+                        <a href="mailto:sergeeva.an211@gmail.com">E-mail: sergeeva.an211@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://t.me/snorrky">Telegram</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Snorrky/">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://discordapp.com/users/488331778923298816">Discord</a>
+                    </li>
+                </ul>
+            </section>
+            
+            <section id="about">
+                <h2>About me</h2>
+                <p>Junior front-end developer. I am currently studying the JavaScript/Front-end course at RS School. I have
+                working experience with many simple websites and landing pages (front-end and back-end), but I want to
+                work on more interesting and complex projects.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        HTML, CSS
+                    </li>
+                    <li>
+                        Basic JavaScript, JQuery</li>
+                    <li>
+                        Basic Php
+                    </li>
+                    <li>
+                        SQL
+                    </li>
+                    <li>
+                        GIT
+                    </li>
+                    <li>
+                        Sass
+                    </li>
+                    <li>
+                        E-mail layout
+                    </li>
+                    <li>
+                        Figma, Adobe Photoshop
+                    </li>
+                </ul>
+            </section>
+            <section id="code">
+                <h2>Code example</h2>
+                <pre class="code-example"><code>
+function sumTwoSmallestNumbers(numbers) { 
+function compare(a,b) {
+return a - b;
+}
+numbers = numbers.sort(compare);
+return numbers[0]+numbers[1];
+}
+</code></pre>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <ul>
+                    <li>Frontend-developer/Database Administrator/Technical support in Real Estate Agency (2016 - current)
+                        <ul>
+                            <li>creating landing pages (HTML, CSS, JS, JQuery, PHP, SQL)</li>
+                            <li>creating xml-feeds (PHP, SQL)</li>
+                            <li>e-mail layout</li>
+                            <li>creating banners</li>
+                            <li>technical support</li>
+                            <li>setting tasks for developers</li>
+                            <li>CRM setup and control</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="education">
+                <ul>
+                    <li>self-education by youtube</li>
+                    <li>Course Web-Developer by Ivan Petrichenko (Udemy)</li>
+                    <li>trainings on htmlacademy.com (in progress)</li>
+                    <li>RS Schools Course (in progress)</li>
+                    <li>Moscow Engineering Physics Institute (incomplete higher education)</li>
+                    <li>Univercity College Of Information Technology</li>
+                </ul>
+            </section>
+            <section id="languages">
+                <ul>
+                    <li>Russian - native</li>
+                    <li>English - B2</li>
+                </ul>
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>

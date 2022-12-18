@@ -16,11 +16,6 @@ li {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
-h1 {
-    margin-bottom: 20px;
-}
-
 .wrapper {
     margin: 0 auto;
     max-width: 1000px;
@@ -29,6 +24,15 @@ h1 {
     padding: 50px 50px;
     box-shadow: 0 0 10px 1px rgb(106, 105, 105);
 }
+
+.main {
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
 
 .page-section {
     margin-bottom: 40px;
@@ -83,6 +87,11 @@ h1 {
     background: rgb(240, 240, 240);
 }
 
+.skills-item {
+    list-style: circle;
+    margin-left: 20px;
+}
+
 .exp-item {
     list-style: circle;
     font-weight: 600;
@@ -99,7 +108,15 @@ h1 {
     list-style: circle;
     margin-left: 20px;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.copyright-link {
+    color: #000000;
+}
 @media all and (max-width: 460px) {
     .wrapper {
         padding: 20px;

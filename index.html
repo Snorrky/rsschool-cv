@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>CV#2. HTML, CSS & Git Basics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="page">
+    <div class="wrapper">
+
+        <header class="page-section info">
+
+            <div class="photo">
+                <img src="img/profile.jpg" alt="Anastasiya Sergeeva Photo" width="200" height="200">
+            </div>
+            <div class="contacts">
+
+                <h1>Anastasiya Sergeeva</h1>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <a href="mailto:sergeeva.an211@gmail.com">E-mail: sergeeva.an211@gmail.com</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="https://t.me/snorrky">Telegram</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="https://github.com/Snorrky/">Github</a>
+                    </li>
+                    <li class="contact-item">
+                        <a href="https://discordapp.com/users/488331778923298816">Discord</a>
+                    </li>
+                </ul>
+            </div>
+
+        </header>
+        <main class="main">
+            <section id="about" class="page-section">
+                <h2>About me</h2>
+                <p>Junior front-end developer. I am currently studying the JavaScript/Front-end course at RS School. I have working experience with many simple websites and landing pages (front-end and back-end), but I want to work on more interesting and complex projects.</p>
+            </section>
+            <section id="skills" class="page-section">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        HTML, CSS
+                    </li>
+                    <li class="skills-item">
+                        Basic JavaScript, JQuery</li>
+                    <li class="skills-item">
+                        Basic Php
+                    </li>
+                    <li class="skills-item">
+                        SQL
+                    </li>
+                    <li class="skills-item">
+                        GIT
+                    </li>
+                    <li class="skills-item">
+                        Sass
+                    </li>
+                    <li class="skills-item">
+                        E-mail layout
+                    </li>
+                    <li class="skills-item">
+                        Figma, Adobe Photoshop
+                    </li>
+                </ul>
+            </section>
+            <section id="code" class="page-section">
+                <h2>Code example</h2>
+                <pre class="code-example"><code>
+    function sumTwoSmallestNumbers(numbers) { 
+        function compare(a,b) {
+            return a - b;
+        }
+        numbers = numbers.sort(compare);
+        return numbers[0]+numbers[1];
+    }
+
+</code></pre>
+            </section>
+            <section id="experience" class="page-section">
+                <h2>Experience</h2>
+                <ul class="exp-list">
+                    <li class="exp-item">Frontend-developer/Database Administrator/Technical support in Real Estate
+                        Agency (2016 - current)
+                        <ul class="shores-list">
+                            <li class="shore-item">creating landing pages (HTML, CSS, JS, JQuery, PHP, SQL)</li>
+                            <li class="shore-item">creating xml-feeds (PHP, SQL)</li>
+                            <li class="shore-item">e-mail layout</li>
+                            <li class="shore-item">creating banners</li>
+                            <li class="shore-item">technical support</li>
+                            <li class="shore-item">setting tasks for developers</li>
+                            <li class="shore-item">CRM setup and control</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="education" class="page-section">
+                <h2>Education</h2>
+                <ul class="edu-list">
+                    <li class="edu-item">self-education by youtube</li>
+                    <li class="edu-item">Course Web-Developer by Ivan Petrichenko (Udemy)</li>
+                    <li class="edu-item">trainings on htmlacademy.com (in progress)</li>
+                    <li class="edu-item">RS Schools Course (in progress)</li>
+                    <li class="edu-item">Moscow Engineering Physics Institute (incomplete higher education)</li>
+                    <li class="edu-item">Univercity College Of Information Technology</li>
+                </ul>
+            </section>
+            <section id="languages" class="page-section">
+                <h2>Languages</h2>
+                <ul class="lang-list">
+                    <li class="lang-item">Russian - native</li>
+                    <li class="lang-item">English - B2</li>
+                </ul>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="copyright">
+                (c) 2022
+            </div>
+            <div class="github">
+                <a href="https://github.com/Snorrky" class="github-link"><img src="img/github-mark.svg" alt="Visit my Github" width="30" height="30"></a>
+            </div>
+
+            <div class="rs-school">
+                <a href="https://rs.school/js/" class="rs-link"><img src="img/rs_school_js.svg" alt="RSSchool" width="80" height="40"></a>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>

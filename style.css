@@ -29,6 +29,23 @@ li {
     margin-bottom: 40px;
 }
 
+ .nav-list {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .nav-link {
+    color: #81ac8a;
+    border-bottom: #81ac8a solid 1px;
+    padding-bottom: 3px;
+    text-decoration: none;
+ }
+
+ .nav-link:hover {
+    border-top: #81ac8a solid 1px;
+    padding-top: 3px;
+ }
+
 h1 {
     margin-bottom: 20px;
 }
